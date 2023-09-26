@@ -17,4 +17,6 @@ import sys
 print("Python version")
 print(sys.version)
 print("Version info.")
+
+# Prints a more detailed version of the system info.
 print(sys.version_info)

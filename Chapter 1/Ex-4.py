@@ -8,8 +8,8 @@ Created on Tue Sep 12 10:15:54 2023
 """
 Chapter 1: Getting Started With Python
 """
-# Exercise 4: Write three strings in different variables and print the output as one string.
-# Write three strings in different variables and print the output as one string. 
+# Exercise 4: Strings Concatination
+# Write three strings in different variables and print the output as one string.
 
 a = "Name"
 b = "Age"
