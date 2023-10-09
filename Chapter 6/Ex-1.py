@@ -20,7 +20,7 @@ while check == True:
     
     answer = str(input("Enter a topping: "))
     # However, the if test will check if the input given by the user is either a topping or "quit"
-    # The answer is converted to lowercase as to have any variation of quit will be the same as the condition asked
+    # The answer is converted to lowercase as to have any variation of quit be the same as the condition asked
     
     if answer.lower() == "quit":
         # If the answer is infact quit, the check will be assigned False, this breaks the while loop
