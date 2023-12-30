@@ -1106,7 +1106,7 @@ Total: {cart2}dhs.""")
                             # Credit allows you enter any amount of money.
                             credit =  float(input("Enter the amount of your payment: "))
                    
-                            if credit > cart2:
+                            if credit >= cart2:
                                 print(f"\nYour change is: {round(credit-cart2,2)}dhs.")
                                 t.sleep(1)
                                 print("""\nYou purchased the following items;
@@ -1123,7 +1123,7 @@ Total: {cart2}dhs.""")
                                 t.sleep(2)
     
                             else:
-                                print("\nYou do not have enough funds. You need {round(cart2-credit,2)}dhs more.")
+                                print(f"\nYou do not have enough funds. You need {round(cart2-credit,2)}dhs more.")
                            
                     else:
                        print("\nError. Please enter payment type again.")
