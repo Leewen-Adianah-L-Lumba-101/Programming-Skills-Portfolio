@@ -1052,14 +1052,15 @@ Total: {cart2}dhs.""")
                     casher = 0       # This variable is a 'credits' system of the amount of cash stored
                     count = 1        # Purely for aesthetic, it's to list down the items being dispensed
                     x = 0
+                  
+                    # Adding the discount if True by changing cart2 to its 30% off state
+                    if discount == True:
+                        offer = (cart2 * 0.3)
+                        cart2 -= offer  
             
                     if payment.lower() == "cash":
                         temp2 = True
-                        # Adding the discount if True by changing cart2 to its 30% off state
-                        if discount == True:
-                            offer = (cart2 * 0.3)
-                            cart2 -= offer  
-                        
+                      
                         # As long as the cashed is not equal to cart2 it will run the following
                         while cashed != cart2:
                             print("""
